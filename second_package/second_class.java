@@ -3,6 +3,19 @@ package second_package;
 public class second_class {
     int a,b,c;
     float d,e;
+
+    string address;
+
+    public second_class(string address) {
+        this.address = address;
+    }
+
+    public string getAddress() {
+        return address;
+    }
+
+    public void setAddress(string address) {
+        this.address = address;
     string name;
 
     public second_class(string name) {
@@ -15,6 +28,7 @@ public class second_class {
 
     public void setName(string name) {
         this.name = name;
+
     }
 
     public second_class(int a, int b, int c, float d, float e) {
