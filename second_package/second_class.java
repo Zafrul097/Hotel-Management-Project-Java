@@ -3,6 +3,19 @@ package second_package;
 public class second_class {
     int a,b,c;
     float d,e;
+    string name;
+
+    public second_class(string name) {
+        this.name = name;
+    }
+
+    public string getName() {
+        return name;
+    }
+
+    public void setName(string name) {
+        this.name = name;
+    }
 
     public second_class(int a, int b, int c, float d, float e) {
         this.a = a;
